@@ -1,0 +1,19 @@
+"outDir": "./build", 
+"sourceMap": true, - help in debugging 
+"rootDir": "./",   -where the compilation should start
+
+import something by default it's a funtcion getting called and return or give us an object.
+
+dotenv file to setup the port and give us config function and create an object through it
+
+one file (.js) should only be concerned about 1 responsiblity
+so create seperate file for importing config and for port listen
+
+//tsconfig - compile typecript to js and create a build which has index.js and run it with node
+
+for one request  there can only be one response
+
+global middleware is executed whatever the request is 
+
+global middleware should be defined first or at the start to avoid errors
+
